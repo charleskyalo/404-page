@@ -1,0 +1,175 @@
+*{
+    padding: 0;
+    margin:0;
+}
+body{
+/* width: 1440px;
+height: 1080px; */
+background: #FFFFFF;
+box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.1);
+}
+
+.main{
+display:flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.main--header{
+justify-self: start;
+}
+.main--header h2{
+margin-top: 40px;
+margin-right:auto;
+}
+
+.main--section{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:265px;
+    margin-bottom: 290px;
+}
+
+.main--section--image,.main--section--content{
+    margin-right:120px;
+}
+
+.main--section--image{
+    margin-right:120px;
+    margin-left:77px;
+}
+
+.main--section--content,.main--section--image{
+    flex-basis:50%;
+
+}
+
+.main--section--image img{
+width: 100%;
+height:auto;
+}
+
+
+.main--section--content h2{
+font-family: Space Mono;
+font-style: normal;
+font-weight: bold;
+font-size: 64px;
+line-height: 95px;
+letter-spacing: -0.035em;
+margin-bottom: 36px;
+
+/* Gray 1 */
+
+color: #333333;
+    
+}
+
+
+.main--section--content p{
+font-family: Space Mono;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 36px;
+letter-spacing: -0.035em;
+margin-bottom: 64px;
+}
+
+.main--section--content button{
+   width: 216px;
+height: 68px;
+font-family: Space Mono;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+
+letter-spacing: -0.035em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+background: #333333;
+border: none;
+}
+
+
+.footer{
+    margin-bottom: 40px;
+}
+
+
+.footer p{
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+
+color: #333333;
+
+}
+
+/* mobile styles */
+
+@media only screen and (max-width:400px){
+
+
+
+    .main--section{
+        flex-direction: column;
+        margin-top: 84px;
+        margin-left:24px;
+        margin-right:24px;
+        justify-content:flex-start;
+    }
+
+    .main--section--content h2{
+font-family: Space Mono;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 71px;
+letter-spacing: -0.035em;
+border:2px solid red;
+    }
+
+
+    .main--section--content,.main--section--image{
+    flex-basis:100%;
+}
+.main--section--image {
+margin:0 auto;
+margin-bottom: 80px;
+}
+.main--section--content h2{
+    margin-bottom:30px;
+}
+
+
+
+.main--section--image,.main--section--content{
+    margin-right:0;
+    margin-left:0;
+}
+
+.main--section--content button{
+margin-top:66px;
+margin-bottom:96px;
+}
+
+
+br{
+    display:none;
+}
+}
+
+
+
+
+
