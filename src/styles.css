@@ -101,18 +101,17 @@ border: none;
 }
 
 
-.footer p{
+.footer a{
 font-family: Montserrat;
+text-decoration: none;
 font-style: normal;
 font-weight: 600;
-font-size: 14px;
+font-size: 2rem;
 line-height: 17px;
 /* identical to box height */
-
-
 color: #333333;
-
 }
+
 
 /* mobile styles */
 
